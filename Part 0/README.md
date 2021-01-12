@@ -1,10 +1,9 @@
 
 # Full Stack Open 2020
---------------------------  
    
 ## Part 0
 ## Fundamentals of Web Apps  
-    
+
 ## 0.4: *new note*
 ![04](./0.4_new_note.png)
 

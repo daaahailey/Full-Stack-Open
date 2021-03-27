@@ -7,7 +7,14 @@ const Header = ({course}) => {
       <h1>{course}</h1>
     </div>
   )
+}
 
+const Part = ({name, exercise}) => {
+  return (
+    <div>
+      <p>{name} {exercise}</p>
+    </div>
+  )
 }
 
 const Content = ({parts}) => {
@@ -15,8 +22,9 @@ const Content = ({parts}) => {
   return(
     <div>
       {parts.map(({name, exercise}, index) => {
-        return <p key={index}>{name} {exercise}</p>
-      })}
+        return <Part key={index} name={name} exercise={exercise} />;
+      })} 
+
     </div>
   )
 }

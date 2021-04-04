@@ -51,14 +51,14 @@ const App = () => {
   return (
     <div>
       <Anecdote
-        title={"Anecdote of the day"}
+        title="Anecdote of the day"
         selected={anecdotes[selected]}
         voted={voted[selected]}
       />
       <Button handleClick={countVote} text="vote" />
       <Button handleClick={handleNextAnecdotes} text="next anecdote" />
       <Anecdote
-        title={"Anecdote with most votes"}
+        title="Anecdote with most votes"
         selected={anecdotes[mostVotedIndex]}
         voted={mostVoted}
       />
